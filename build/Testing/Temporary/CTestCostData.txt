@@ -1,2 +1,2 @@
-matrix_tests 2 0.0814908
+matrix_tests 3 0.0879783
 ---

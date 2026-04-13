@@ -1,19 +1,19 @@
-Start testing: Apr 13 15:12 PDT
+Start testing: Apr 13 15:16 PDT
 ----------------------------------------------------------
 1/1 Testing: matrix_tests
 1/1 Test: matrix_tests
 Command: "/Users/keshavramamurthy/Desktop/tft/build/matrix_tests"
 Directory: /Users/keshavramamurthy/Desktop/tft/build
-"matrix_tests" start time: Apr 13 15:12 PDT
+"matrix_tests" start time: Apr 13 15:16 PDT
 Output:
 ----------------------------------------------------------
 matrix multiplication test passed
 <end of output>
-Test time =   0.16 sec
+Test time =   0.26 sec
 ----------------------------------------------------------
 Test Passed.
-"matrix_tests" end time: Apr 13 15:12 PDT
+"matrix_tests" end time: Apr 13 15:16 PDT
 "matrix_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 13 15:12 PDT
+End testing: Apr 13 15:16 PDT

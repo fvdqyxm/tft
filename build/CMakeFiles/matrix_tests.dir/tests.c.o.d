@@ -5,7 +5,6 @@ CMakeFiles/matrix_tests.dir/tests.c.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/_symbol_aliasing.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/_posix_availability.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_assert.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_static_assert.h \
  /opt/homebrew/Cellar/gcc@14/14.3.0/lib/gcc/14/gcc/aarch64-apple-darwin24/14/include-fixed/stdio.h \
  /opt/homebrew/Cellar/gcc@14/14.3.0/lib/gcc/14/gcc/aarch64-apple-darwin24/14/include/stdarg.h \

@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/Users/keshavramamurthy/Desktop/tft
 
-C_FLAGS = -O3 -DNDEBUG -std=c11 -flto=auto -O3 -DNDEBUG -fstrict-aliasing -fomit-frame-pointer -fno-math-errno -fno-trapping-math -ffast-math -march=native -mtune=native
+C_FLAGS = -O3 -DNDEBUG -std=c11 -flto=auto -O3 -DNDEBUG -fstrict-aliasing -fomit-frame-pointer -fno-math-errno -fno-trapping-math -ffast-math -mcpu=native -mtune=native
 

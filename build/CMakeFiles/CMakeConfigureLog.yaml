@@ -1833,3 +1833,209 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:41 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test MATRIX_HAS_MCPU_NATIVE"
+    directories:
+      source: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-VU4gsa"
+      binary: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-VU4gsa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "MATRIX_HAS_MCPU_NATIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-VU4gsa'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0cc40/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0cc40.dir/build.make CMakeFiles/cmTC_0cc40.dir/build
+        Building C object CMakeFiles/cmTC_0cc40.dir/src.c.o
+        /opt/homebrew/bin/gcc-14 -DMATRIX_HAS_MCPU_NATIVE  -std=c11   -mcpu=native -o CMakeFiles/cmTC_0cc40.dir/src.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-VU4gsa/src.c
+        Linking C executable cmTC_0cc40
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cc40.dir/link.txt --verbose=1
+        /opt/homebrew/bin/gcc-14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0cc40.dir/src.c.o -o cmTC_0cc40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:45 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test MATRIX_HAS_MARCH_NATIVE"
+    directories:
+      source: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-gqFVEt"
+      binary: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-gqFVEt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "MATRIX_HAS_MARCH_NATIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-gqFVEt'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04b51/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_04b51.dir/build.make CMakeFiles/cmTC_04b51.dir/build
+        Building C object CMakeFiles/cmTC_04b51.dir/src.c.o
+        /opt/homebrew/bin/gcc-14 -DMATRIX_HAS_MARCH_NATIVE  -std=c11   -march=native -o CMakeFiles/cmTC_04b51.dir/src.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-gqFVEt/src.c
+        Linking C executable cmTC_04b51
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04b51.dir/link.txt --verbose=1
+        /opt/homebrew/bin/gcc-14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_04b51.dir/src.c.o -o cmTC_04b51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:49 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test MATRIX_HAS_MTUNE_NATIVE"
+    directories:
+      source: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-CbCc04"
+      binary: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-CbCc04"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "MATRIX_HAS_MTUNE_NATIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-CbCc04'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f008c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f008c.dir/build.make CMakeFiles/cmTC_f008c.dir/build
+        Building C object CMakeFiles/cmTC_f008c.dir/src.c.o
+        /opt/homebrew/bin/gcc-14 -DMATRIX_HAS_MTUNE_NATIVE  -std=c11   -mtune=native -o CMakeFiles/cmTC_f008c.dir/src.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/CMakeScratch/TryCompile-CbCc04/src.c
+        Linking C executable cmTC_f008c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f008c.dir/link.txt --verbose=1
+        /opt/homebrew/bin/gcc-14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f008c.dir/src.c.o -o cmTC_f008c
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:62 (check_ipo_supported)"
+    directories:
+      source: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/bin/cmake -S/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src -B/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/bin/cmake -E cmake_progress_start /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin && /opt/homebrew/bin/cmake -E cmake_depends "Unix Makefiles" /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake foo
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /opt/homebrew/bin/gcc-14   -flto=auto -o CMakeFiles/foo.dir/foo.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /opt/homebrew/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/opt/homebrew/bin/gcc-ar-14" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/opt/homebrew/bin/gcc-ranlib-14" libfoo.a
+        [ 50%] Built target foo
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin && /opt/homebrew/bin/cmake -E cmake_depends "Unix Makefiles" /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake boo
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /opt/homebrew/bin/gcc-14   -flto=auto -o CMakeFiles/boo.dir/main.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /opt/homebrew/bin/gcc-14 -flto=auto -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        [100%] Built target boo
+        /opt/homebrew/bin/cmake -E cmake_progress_start /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:74 (check_ipo_supported)"
+    directories:
+      source: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/bin/cmake -S/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src -B/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/bin/cmake -E cmake_progress_start /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin && /opt/homebrew/bin/cmake -E cmake_depends "Unix Makefiles" /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake foo
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /opt/homebrew/bin/gcc-14   -flto=auto -o CMakeFiles/foo.dir/foo.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /opt/homebrew/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/opt/homebrew/bin/gcc-ar-14" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/opt/homebrew/bin/gcc-ranlib-14" libfoo.a
+        [ 50%] Built target foo
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin && /opt/homebrew/bin/cmake -E cmake_depends "Unix Makefiles" /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake boo
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /opt/homebrew/bin/gcc-14   -flto=auto -o CMakeFiles/boo.dir/main.c.o -c /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /opt/homebrew/bin/gcc-14 -flto=auto -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        [100%] Built target boo
+        /opt/homebrew/bin/cmake -E cmake_progress_start /Users/keshavramamurthy/Desktop/tft/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
