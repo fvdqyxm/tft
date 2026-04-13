@@ -1,0 +1,1 @@
+/opt/homebrew/bin/gcc-14 -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/matrix_tests.dir/tests.c.o -o matrix_tests  libmatrix.a
